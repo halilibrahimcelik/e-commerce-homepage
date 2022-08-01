@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap:3rem;
-/* overflow-y: hidden;
-overflow-x: hidden; */
+
 
  
     
@@ -11,7 +10,9 @@ overflow-x: hidden; */
 }
 @media (max-width:768px) {
     .main-container{
-   width: fit-content !important;
+   width: 100%!important;
+   margin: 0;
+   padding: 0 !important;
         grid-template-columns: 100%;
         grid-template-rows: 50% 50%;
   position: relative;

@@ -124,13 +124,15 @@ input[type="checkbox"] {
         display: none;
     }
 
-
+.card{
+  width: 170px;
+}
     .image{ 
         width: 170px;
         object-fit: cover ;
         height: 230px;
     }
     .next-button{
-        left: 34rem;
+        left: 32rem;
     }
   }

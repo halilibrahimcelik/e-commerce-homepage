@@ -1,5 +1,5 @@
 .features{
-   padding:4rem 4rem 0 ;
+   padding:6rem 4rem 0 ;
 
   
 
@@ -9,9 +9,16 @@
 @media (max-width:768px) {
   .features{
    position: absolute;
-   top:30rem;
-   left: 4rem;
+   top:40rem;
+   left: 3rem;
    
    padding:0
+  } 
+}
+@media (max-width:530px) {
+  .features{
+   
+   top:22rem;
+   left:2rem
   } 
 }

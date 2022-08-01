@@ -8,6 +8,7 @@
 .heading{
     font-weight: 800;
     font-size:3rem;
+    width: 40rem;
 }
 .small-screen{
     display: none;
@@ -15,6 +16,7 @@
 .text{
     color:#B2B2B2;
     font-size: 1.3rem;
+    width: 40rem;
 }
 
 .button{
@@ -28,7 +30,7 @@ font-size: 1.3rem;
 }
 
 @media (max-width:768px) {
-   
+ 
    .visible{
     display: none;
    }
