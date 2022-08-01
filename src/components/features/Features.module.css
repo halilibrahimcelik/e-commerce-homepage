@@ -1,7 +1,17 @@
 .features{
    padding:4rem 4rem 0 ;
 
-   position: relative;
   
 
+}
+
+
+@media (max-width:768px) {
+  .features{
+   position: absolute;
+   top:30rem;
+   left: 4rem;
+   
+   padding:0
+  } 
 }

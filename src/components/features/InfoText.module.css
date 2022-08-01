@@ -9,13 +9,16 @@
     font-weight: 800;
     font-size:3rem;
 }
+.small-screen{
+    display: none;
+}
 .text{
     color:#B2B2B2;
     font-size: 1.3rem;
 }
 
 .button{
-background-color: white;
+background-color: transparent;
 outline: none;
 border: none;
 width: fit-content;
@@ -23,3 +26,19 @@ border-bottom: 1px solid black;
 font-weight: 700;
 font-size: 1.3rem;
 }
+
+@media (max-width:768px) {
+   
+   .visible{
+    display: none;
+   }
+   .small-screen{
+    display: block;
+    color:white;
+    width: 36rem;
+   }
+   .button {
+color:white;
+border-bottom: 1px solid white;
+   }
+ }

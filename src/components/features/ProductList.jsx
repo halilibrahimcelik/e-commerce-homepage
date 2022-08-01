@@ -96,7 +96,7 @@ const ProductList = () => {
                 </div>
               </div>
 
-              <div className={styles.card}>
+              <div className={styles.card + " " + styles.visible}>
                 <img
                   src={blueHodie}
                   className={styles.image}
