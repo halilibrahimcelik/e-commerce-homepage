@@ -1,10 +1,15 @@
 import React from "react";
 import coverImage from "../../assets/cover-image.png";
+import styles from "./Banner.module.css";
 const Banner = () => {
   return (
-    <>
-      <img src={coverImage} alt="a woman with yellow sport outfit" />
-    </>
+    <section>
+      <img
+        className={styles.image}
+        src={coverImage}
+        alt="a woman with yellow sport outfit"
+      />
+    </section>
   );
 };
 
