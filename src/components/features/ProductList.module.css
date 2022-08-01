@@ -1,4 +1,82 @@
-.card{
-    /* width: 10rem; */
-    border: 1px solid #ccc;
+.product-lists{
+    position:absolute;
+    width:65rem;
 }
+.carousel{
+    position: relative;;
+}
+.products{
+    display: flex;
+    gap:2rem
+}
+.card{
+/* width: 25rem; */
+
+
+}
+.product-info{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:0.5rem
+}
+li{
+
+}
+
+.image{
+    width: 220px;
+    height: 220px;
+    object-fit: cover ;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+ 
+ 
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    opacity: 0.6;
+
+  }
+  input[type="checkbox"]:checked {
+    opacity: 1;
+    transform: scale(1.1);
+    border: 1px solid rgb(61, 58, 58);
+     }
+
+  .blue-input{
+
+        background-color: #99C3CC;
+      
+  }
+  .red-input{
+
+        background-color: #CC9999;
+      
+  }
+  .purple-input{
+
+        background-color: #CB99CC;
+      
+  }
+  .green-input{
+
+        background-color: #A6CC99;
+      
+  }
+
+  .next-button{
+    position: absolute;
+    display: inline-block;
+    background-color: transparent;
+    top:10rem;
+    left: 45rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }

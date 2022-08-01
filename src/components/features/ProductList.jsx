@@ -6,127 +6,184 @@ import styles from "./ProductList.module.css";
 
 const ProductList = () => {
   return (
-    <div>
+    <main className={styles["product-lists"]}>
       <div
         id="carouselExampleControls"
-        className="carousel slide"
+        className={`carousel carousel-dark slide ${styles.carousel}`}
         data-bs-touch="false"
         data-bs-interval="false"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="row">
-              <div className="col-md-4">
-                <div className={styles.card}>
-                  <img
-                    src={greenHoodie}
-                    className="card-img-top"
-                    alt="Green Hoodie"
-                  />
-                  <div className="card-body">
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+            <div className={styles.products}>
+              <div className={styles.card}>
+                <img
+                  src={greenHoodie}
+                  className={styles.image}
+                  alt="Green Hoodie"
+                />
+                <div>
+                  <p>365 Signature Hoodie</p>
+                  <div className={styles["product-info"]}>
+                    <strong>€33.95 </strong>
+                    <ul>
+                      <li>
+                        <input
+                          className={styles["blue-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["red-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["purple-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["green-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
-                <div className={styles.card}>
-                  <img
-                    src={jean}
-                    className="card-img-top"
-                    alt="organic Skinny Waist Jean"
-                  />
-                  <div className="card-body">
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+
+              <div className={styles.card}>
+                <img
+                  src={jean}
+                  className={styles.image}
+                  alt="organic Skinny Waist Jean"
+                />
+                <div>
+                  <p>Organic Skinny High Waist Raw Hem Jeans</p>
+                  <div className={styles["product-info"]}>
+                    <strong>€33.95 </strong>
+                    <ul>
+                      <li>
+                        <input
+                          className={styles["blue-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["red-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["purple-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["green-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
-                <div className={styles.card}>
-                  <img
-                    src={blueHodie}
-                    className="card-img-top"
-                    alt="blue Hoodie"
-                  />
-                  <div className="card-body">
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+
+              <div className={styles.card}>
+                <img
+                  src={blueHodie}
+                  className={styles.image}
+                  alt="blue Hoodie"
+                />
+                <div>
+                  <p>Organic Skinny Hoodie</p>
+                  <div className={styles["product-info"]}>
+                    <strong>€33.95 </strong>
+                    <ul>
+                      <li>
+                        <input
+                          className={styles["blue-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["red-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["purple-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["green-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="carousel-item">
-            <div className="row">
-              <div className="col-md-4 mb-3">
-                <div className={styles.card}>
-                  <img
-                    src={greenHoodie}
-                    className="card-img-top"
-                    alt="Green Hoodie"
-                  />
-                  <div className="card-body">
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 mb-3">
-                <div className={styles.card}>
-                  <img
-                    src={jean}
-                    className="card-img-top"
-                    alt="organic Skinny Waist Jean"
-                  />
-                  <div className="card-body">
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 mb-3">
-                <div className={styles.card}>
-                  <img
-                    src={blueHodie}
-                    className="card-img-top"
-                    alt="blue Hoodie"
-                  />
-                  <div className="card-body">
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+            <div className={styles.products}>
+              <div className={styles.card}>
+                <img
+                  src={blueHodie}
+                  className={styles.image}
+                  alt="blue Hoodie"
+                />
+                <div>
+                  <p>Organic Skinny Hoodie</p>
+                  <div className={styles["product-info"]}>
+                    <strong>€33.95 </strong>
+                    <ul>
+                      <li>
+                        <input
+                          className={styles["blue-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["red-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["purple-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          className={styles["green-input"]}
+                          type="checkbox"
+                        />
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
+          className={`${styles["next-button"]}`}
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
@@ -138,7 +195,7 @@ const ProductList = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </main>
   );
 };
 
