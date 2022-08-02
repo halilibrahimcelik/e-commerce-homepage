@@ -3,4 +3,17 @@ width: 100%;
 
 object-fit: cover;
 background-repeat: no-repeat;
+background-size: contain;
+
 }
+
+@media (max-width:1200px) {
+    .image{
+height: 100%   
+ }
+ }
+ @media (max-width:768px) {
+    .image{
+height: auto 
+ }
+ }
